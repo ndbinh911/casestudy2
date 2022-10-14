@@ -1,0 +1,93 @@
+/* header */
+header .container-fluid {
+    background-color: #0b2239;
+}
+
+header .container-side {
+    background-color: #1e73d8;
+}
+
+header .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #1e73d8;
+}
+
+header .container .btn {
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+header .container .btn:hover {
+    opacity: 0.8;
+}
+
+/* six_box */
+main .three_box {
+    margin-top: 70px;
+}
+
+/* top_newCar */
+.top_newCar {
+    background-color: #f3f3f3;
+    padding-bottom: 20px;
+}
+
+/* top_oldCar */
+
+/* whyChooseUs */
+main .whyChooseUs {
+    /* background-color: #007bff; */
+    /* color: #fff; */
+    border: 1px solid;
+    padding: 20px 0;
+    margin-left: 188px;
+    margin-right: 164px;
+    margin-top: 56px;
+    border-radius: 6px;
+}
+
+main .whyChooseUs p,
+main .whyChooseUs h6 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+main .whyChooseUs #hide,
+main .whyChooseUs .whyChooseUs-desc-2 {
+    display: none;
+}
+
+main .whyChooseUs button {
+    position: relative;
+    left: 50%;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+main .whyChooseUs button:hover {
+    opacity: 0.8;
+}
+
+/* news */
+main .news {
+    margin: 24px 0;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+main .news img {
+    margin: 26px;
+}
+
+/* footer */
+footer {
+    color: #fff !important;
+}
+
+footer footer {
+    background-color: #0b2239;
+    color: #fff!important;
+    padding-top: 2px;
+}

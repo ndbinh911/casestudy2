@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon ô tô mua bán xe cũ & mới</title>
+    <LINK REL="SHORTCUT ICON" HREF="https://img.lovepik.com/element/45004/6953.png_860.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./toyotaCross.css">
+    <link rel="stylesheet" href="./salon.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid p-20">
+            <nav class="navbar p-0 navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./assets/image/carmudi-logo.svg" width="80" height="30" alt="">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">Xe mới <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">Xe cũ <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">Đấu giá xe <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">Salon <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">Blog xe hơi <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">Tư vấn <span class="sr-only">(current)</span></a>
+                        </li>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container-side">
+            <div class="container text-center text-white">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h1>Trang mua bán ô tô hàng đầu Việt Nam</h1>
+                        <h6>Website được xây dựng nhằm giúp người dùng tìm kiếm và sở hữu những dòng xe mơ ước trong mức
+                            giá rẻ. Đây thực sự là một chuyên trang mua bán xe ô tô, xe máy, xe tải…được nhiều người tin
+                            cậy.</h6>
+                        <button type="button" class="btn btn-lg">Thêm thông tin </button>
+                        <button type="button" class="btn btn-lg">Liên hệ</button>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <img src="./assets/image/mercedes_PNG80135.png" width="600" height="auto" alt="car">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- salon -->
+        <div class="salon">
+            <h2>Danh sách salon, showroom ô tô</h2>
+            <div class="input-group">
+                <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Nhập từ khóa để tìm salon, showroom">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-expanded="false">Loại salon xe</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Loại salon xe</a>
+                        <a class="dropdown-item" href="#">Salon xe mới</a>
+                        <a class="dropdown-item" href="#">Salon xe cũ</a>
+                    </div>
+                </div>
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-expanded="false">Hãng xe</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Toyota</a>
+                        <a class="dropdown-item" href="#">Honda</a>
+                        <a class="dropdown-item" href="#">Mitsubishi</a>
+                        <a class="dropdown-item" href="#">Hyundai</a>
+                        <a class="dropdown-item" href="#">Kia</a>
+                        <a class="dropdown-item" href="#">Nissan</a>
+                        <a class="dropdown-item" href="#">BMW</a>
+                        <a class="dropdown-item" href="#">Ford</a>
+                        <a class="dropdown-item" href="#">Audi</a>
+                        <a class="dropdown-item" href="#">Mercedes-Benz</a>
+                    </div>
+                </div>
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-expanded="false">Thành phố</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Hà Nội</a>
+                        <a class="dropdown-item" href="#">TP Hồ Chí Minh</a>
+                        <a class="dropdown-item" href="#">Hải Phòng</a>
+                        <a class="dropdown-item" href="#">Hải Dương</a>
+                        <a class="dropdown-item" href="#">Hà Nam</a>
+                        <a class="dropdown-item" href="#">Ninh Bình</a>
+                        <a class="dropdown-item" href="#">Bắc Ninh</a>
+                        <a class="dropdown-item" href="#">Bắc Giang</a>
+                    </div>
+                </div>
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-expanded="false">Quận/Huyện</button>
+                </div>
+                <button style="background-color: #ffc107; margin-left: 70px;" type="button" class="btn btn-warning">Tìm kiếm</button>
+            </div>
+        </div>
+        <!-- salon -->
+
+        <!-- Sắp xếp theo -->
+        <div class="dropdown">
+            <button id="button_sap_xep" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                Sắp xếp theo: Salon mới nhất
+            </button>
+            <div class="dropdown-menu">
+                <a id="s_salon_cu" class="dropdown-item" href="#">Sắp xếp theo: Salon cũ nhất</a>
+                <a id="s_salon_moi" class="dropdown-item" href="#">Sắp xếp theo: Salon mới nhất</a>
+            </div>
+        </div>
+        <!-- Sắp xếp theo -->
+
+        <!-- Sắp xếp theo: Salon mới nhất -->
+        <div class="salon_moi_nhat" id="salon_moi">
+            <div class="top_newCar" style="padding-top: 10px;">
+                <div class="container p-0">
+                    <!-- <h2 class="pt-4">Xe cùng loại</h2> -->
+                    <div class="row">
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/phamvantuan2-1468564905/phamvantuan2-2142697718_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mazda Bình Dương</h5>
+                                    <p class="card-text">
+                                        Địa chỉ: 56/9 ĐLBD, Tổ 15, KP. Bình Giao, P, Thuận An, Bình Dương</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/quoccuongg1410-828739199/quoccuongg1410-12421499_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mr Cường Hyundai</h5>
+                                    <p class="card-text">Địa chỉ: 1374A QL1A, Tân Thới An, Quận 12, Thành phố Hồ Chí Minh</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/ms-ng-c-337140476/ms-ng-c-234580527_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ms Ngọc - BMW</h5>
+                                    <p class="card-text">Địa chỉ: 
+                                        290 Nguyễn Văn Linh, Bình Thuận, Quận 7, Hồ Chí Minh</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/hoang-duong-31943363/hoang-duong-1484132708_264_198.webp" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Auto Nam Sài Gòn</h5>
+                                    <p class="card-text">Địa chỉ: 206 Nguyễn Văn Linh, Tân Thuận Tây, Quận 7, Hồ Chí Minh</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top_newCar">
+                <div class="container p-0" style="margin-top: 0;">
+                    <!-- <h2 class="pt-4">Xe cùng loại</h2> -->
+                    <div class="row">
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/nguyenmauhuan1993-944241300/nguyenmauhuan1993-862482368_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">SUBARU Bình Dương</h5>
+                                    <p class="card-text">
+                                        Địa chỉ: 
+                                        5A Đại Lộ Bình Dương, KP. Bình Đức 2, P. Bình hòa, TP. Thuận An, T. Bình Dương</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/mercedes-cun-tho-422096530/mercedes-cun-tho-1631121806_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mercedes-Benz CẦN THƠ</h5>
+                                    <p class="card-text">Địa chỉ: Số 102 đường Cách Mạng Tháng Tám, Cái Khế, quận Ninh Kiều, Cần Thơ</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/otoluot-vietnam-914338441/otoluot-vietnam-1428210231_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ô tô lướt</h5>
+                                    <p class="card-text">Địa chỉ: 
+                                        714 Tân Kỳ Tân Quý, Phường Bình Hưng Hòa, Quận Bình Tân, Thành phố Hồ Chí Minh</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem; height: 413px;">
+                                <img src="https://static.carmudi.vn/files/account-media/thang-nim-2011333035/thang-nim-934741685_264_198.webp" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ô tô Sài Gòn</h5>
+                                    <p class="card-text">Địa chỉ: 20 Nguyễn Thị Minh Khai, Phường Đa Kao</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top_newCar">
+                <div class="container p-0" style="margin-top: 0;">
+                    <!-- <h2 class="pt-4">Xe cùng loại</h2> -->
+                    <div class="row">
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem; height: 413px;">
+                                <img src="https://static.carmudi.vn/files/account-media/phamvantuan2-1468564905/phamvantuan2-2142697718_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mazda Bình Dương</h5>
+                                    <p class="card-text">
+                                        Địa chỉ: 56/9 ĐLBD, Tổ 15, KP. Bình Giao, P, Thuận An, Bình Dương</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem; height: 413px;">
+                                <img src="https://static.carmudi.vn/files/account-media/trangbd1996-1708764394/trangbd1996-277557674_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">SUBARU</h5>
+                                    <p class="card-text">
+                                        5A Đại lộ Bình Dương, KP Bình Đức 2, P. Bình Hòa</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/ms-h-ng-anh-kia-92937093/ms-h-ng-anh-kia-826300008_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">MS. Hồng Ánh KIA</h5>
+                                    <p class="card-text">Địa chỉ:           
+                                        Km10, Đường Giải Phóng, Xã Tứ Hiệp, Huyện Thanh Trì, Hà Nội</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/mercedesquang-895854200/mercedesquang-2140236029_264_198.webp" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mercedes-Benz Haxaco Láng Hạ</h5>
+                                    <p class="card-text">Địa chỉ: 46 Láng Hạ, Quận Đống Đa, TP Hà Nội.</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sắp xếp theo: Salon mới nhất -->
+
+
+        <!-- Sắp xếp theo: Salon cũ nhất -->
+        <div class="salon_cu_nhat" id="salon_cu">
+            <div class="top_oldCar" style="padding-top: 10px;">
+                <div class="container p-0">
+                    <!-- <h2 class="pt-4">Xe cùng loại</h2> -->
+                    <div class="row">
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;height: 414px;">
+                                <img src="https://static.carmudi.vn/files/account-media/thai-ha-toyota-1491599999/thai-ha-toyota-1503365944_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Toyota Hùng Vương - TT</h5>
+                                    <p class="card-text">
+                                        Địa chỉ: 
+                                            1135 QL1A, KP5, P, Bình Tân, Thành phố Hồ Chí Minh</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/showroom-44647266/showroom-2134810368_264_198.webp" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Honda ô tô DĂK LĂK</h5>
+                                    <p class="card-text">Địa chỉ: 145 Nguyễn Chí Thanh, Tân An, Thành phố Buôn Ma Thuột, Đắk Lắk</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/phi-dnv-1538820414/phi-dnv-87379680_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">VINFAST NINH THUẬN</h5>
+                                    <p class="card-text">Địa chỉ: 
+                                        Vincom Phan Rang - số 122 đường 16/4, P. Mỹ Hải, TP. Phan Rang - Tháp Chàm</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/tr-ng-ddht-mitsubishi-1203613010/tr-ng-ddht-mitsubishi-847800484_264_198.webp" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Trọng Đạt Mitsubishi</h5>
+                                    <p class="card-text">Địa chỉ: 
+                                        KM 12, tổ 15, phường Phúc Diễn, Quận Bắc Từ Liêm, Thành phố Hà Nội</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top_oldCar" style="padding-top: 10px;">
+                <div class="container p-0">
+                    <!-- <h2 class="pt-4">Xe cùng loại</h2> -->
+                    <div class="row">
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/trongthang2505-1058383548/nguy-n-th-ng-1043483447_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Honda Long Biên</h5>
+                                    <p class="card-text">
+                                        Địa chỉ: 
+                                        447 Nguyễn Văn Linh, Q. Long Biên, Hà Nội</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/pttruong-411119650/pttruong-162089229_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Trường Toyota</h5>
+                                    <p class="card-text">Địa chỉ: số 26 Kinh Dương Vương, Phường 13, Quận 6, Tp.HCM</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/buianhtai1601-1413424840/hyundai-ng-c-phat-chi-nhanh-2-171756319_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hyundai Ngọc Phát</h5>
+                                    <p class="card-text">Địa chỉ: 
+                                        D22, Xa Lộ Hà Nội, Long Bình, Biên Hoà, Đồng Nai</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/ddhi-ford-1428474166/ddhi-ford-1151747458_264_198.webp" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ford Hà Thành</h5>
+                                    <p class="card-text">Địa chỉ: Trụ sở; Cụm công nghiệp lai xá, kim chung, hoài đức, Hà nội.</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top_oldCar" style="padding-top: 10px;">
+                <div class="container p-0">
+                    <!-- <h2 class="pt-4">Xe cùng loại</h2> -->
+                    <div class="row">
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/hoahiepvk-gmail-com-1759128068/phong-kinh-doanh-1540906895_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mitsubishi Võ Văn Kiệt</h5>
+                                    <p class="card-text">
+                                        Địa chỉ: 
+                                        664 Võ Văn Kiệt, phường 1, quận 5, TP HCM</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/linh-nam-auto-1965535267/linh-nam-auto-675049925_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lĩnh Nam Auto</h5>
+                                    <p class="card-text">Địa chỉ: 7-1B Hà Huy Tập, Tân Phong, Q7</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/showroom-1053203032/showroom-270249660_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hà Nội Ford</h5>
+                                    <p class="card-text">Địa chỉ: Số 311-313 Trường Chinh, Q.Thanh Xuân, TP. Hà Nội</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/hyundai-binh-duong-3s-22168144/hyundai-binh-duong-3s-636208987_264_198.webp" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hyundai Bình Dương 3S </h5>
+                                    <p class="card-text">Địa chỉ: Trụ sở; Cụm công nghiệp lai xá, kim chung, hoài đức, Hà nội.</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Sắp xếp theo: Salon cũ nhất -->
+
+        <!-- A-Z -->
+        <!-- <div class="salon_az_nhat" id="salon_az">
+            <div class="top_AZ" style="padding-top: 10px;">
+                <div class="container p-0">
+                    <div class="row">
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;height: 391px;">
+                                <img src="https://static.carmudi.vn/files/account-media/nhapkhauxehoi-819690824/auto-568-918097456_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">AUTO 568</h5>
+                                    <p class="card-text">
+                                        Địa chỉ: 
+                                        517 Kim Mã</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;height: 391px;">
+                                <img src="https://static.carmudi.vn/files/account-media/auto-568-h-chi-minh-1655288002/auto-568-h-chi-minh-1839749827_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">AUTO 568 HỒ CHÍ MINH</h5>
+                                    <p class="card-text">Địa chỉ: 629 Phạm Văn Đồng</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/vinfast-thcyo-di-n-832735520/vinfast-thcyo-di-n-314801162_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">AUTO EASY CAR</h5>
+                                    <p class="card-text">Địa chỉ: 
+                                        66 Tân bình Phường 2 TP Hồ Chí Minh</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/auto-nam-sai-gon-1221426373/auto-nam-sai-gon-508247503_264_198.webp" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">AUTO GOOD CAR</h5>
+                                    <p class="card-text">Địa chỉ: 206 Nguyễn Văn Linh, Phường Bình Thuận,</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top_AZ" style="padding-top: 10px;">
+                <div class="container p-0">
+                    <div class="row">
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/hoang-duong-31943363/hoang-duong-1484132708_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">AUTO NAM SÀI GÒN</h5>
+                                    <p class="card-text">
+                                        Địa chỉ: 206 Nguyễn Văn Linh, Phường Tân Thuận Tây, Quận 7, Thành phố Hồ Chí Minh</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;height: 414px;">
+                                <img src="https://static.carmudi.vn/files/account-media/trinhhaidiep-115653905/trinhhaidiep-510386133_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">BÌNH AUTO</h5>
+                                    <p class="card-text">Địa chỉ: 896 đường láng Hà Nội</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/bmw-binh-duong-1025322545/bmw-binh-duong-722088281_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">BMW BÌNH DƯƠNG</h5>
+                                    <p class="card-text">Địa chỉ: 
+                                        56/9 Đại Lộ Bình Dương, Tổ 15, KP Bình Giao, P Thuận Giao, Thuận An, Bình Dương</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/caominh159-436869494/cao-minh-772687391_264_198.webp" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">CAO MINH TOYOTA</h5>
+                                    <p class="card-text">Địa chỉ: 220 Bis Điện Biên Phủ, Phường 22, Quận Bình Thạnh, Tp. HCM</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top_AZ" style="padding-top: 10px;">
+                <div class="container p-0">
+                    <div class="row">
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;height: 391px;">
+                                <img src="https://static.carmudi.vn/files/account-media/carplus-auto-2020205501/carplus-auto-1171696162_264_198.webp" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">CARPLUS AUTO</h5>
+                                    <p class="card-text">
+                                        Địa chỉ: 
+                                        CD3 Yên Hoà</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/ford-an-phu-521242788/ford-an-phu-1204470753_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">CITY FORD</h5>
+                                    <p class="card-text">Địa chỉ: 
+                                        218 QL13, Hiệp Bình Chánh, Thủ Đức, Hồ Chí Minh</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/trantoan8632-1524164467/trantoan8632-1824765128_264_198.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">CITY FORD BÌNH TRIỆU</h5>
+                                    <p class="  card-text">Địa chỉ: 
+                                        Số 218 - Quốc lộ 13. P. Hiệp Bình Chánh Q. Thủ Đức</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://static.carmudi.vn/files/account-media/lee-103894489-1013503597/o-to-kim-b-ng-1005810178_264_198.webp" class="card-img-top"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">DONGFENG VIỆT NAM</h5>
+                                    <p class="card-text">Địa chỉ: 793 Quốc lộ 13, Phường Hiệp Bình Phước, TP. Thủ Đức</p>
+                                    <a href="#" class="btn btn-primary">Thêm thông tin</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- A-Z -->
+
+
+        <div class="news">
+            <img src="/casestudy2/assets/image/dantri.png" alt="dantri">
+            <img src="/casestudy2/assets/image/tuoitre.png" alt="dantri">
+            <img src="/casestudy2/assets/image/vnexpress.png" alt="dantri">
+            <img src="/casestudy2/assets/image/cafef.png" alt="dantri">
+            <img src="/casestudy2/assets/image/techcrunch.png" alt="dantri">
+        </div>
+    </main>
+
+    <footer>
+        <!-- Footer -->
+        <footer class="text-center text-lg-start ">
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Cần mua xe
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Tin bán xe mới</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Tin bán xe cũ</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Salon ô tô</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Cần bán xe
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Bán xe ô tô</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Đăng ký gian hàng</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Bảng giá gian hàng</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Blog xe hơi
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Tin tức</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Tư vấn</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Đánh giá xe</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Video</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Tư vấn mua xe</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">So sánh xe</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Giá & khuyến mãi</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Thông tin chung
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Về chúng tôi</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Tuyển dụng</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Mua - bán xe công ty:</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Mua - bán xe cá nhân:</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2022 Copyright:
+                <a class="text-reset fw-bold" href="">Nguyen Binh</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </footer>
+
+    <script>
+        document.getElementById("s_salon_cu").onclick = function () {
+            document.getElementById("salon_cu").style.display = 'block';
+            document.getElementById("s_salon_moi").style.display = 'block';
+            document.getElementById("salon_moi").style.display = 'none';
+            document.getElementById("s_salon_cu").style.display = 'none';
+            document.getElementById("button_sap_xep").innerText = 'Sắp xếp theo: Salon cũ nhất'
+        }
+
+        document.getElementById("s_salon_moi").onclick = function () {
+            document.getElementById("salon_cu").style.display = 'none';
+            document.getElementById("s_salon_moi").style.display = 'none';
+            document.getElementById("salon_moi").style.display = 'block';
+            document.getElementById("s_salon_cu").style.display = 'block';
+            document.getElementById("button_sap_xep").innerText = 'Sắp xếp theo: Salon mới nhất'
+        }
+    </script>
+</body>
+
+</html>

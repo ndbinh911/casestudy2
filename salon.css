@@ -1,0 +1,67 @@
+main .salon ,
+main .dropdown {
+    margin: 12px 180px;
+}
+
+/* salon */
+main .salon .input-group {
+    background-color: #1a6fb7;
+    padding: 6px 48px;
+    border-radius: 10px;
+}
+
+main .salon .input-group-append {
+    margin: 0 6px;
+}
+
+main .salon .input-group button {
+    background-color: #fff;
+    color: #000;
+}
+
+main .salon .input-group button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* sắp xếp theo */
+main .dropdown {
+}
+
+main .dropdown button:hover,
+main .dropdown button {
+    color: #000;
+    background-color: #fff;
+}
+
+
+/* Sắp xếp theo: Salon mới nhất */
+main .container {
+    margin: 12px 180px;
+}
+
+main .container img {
+    height: 210px;
+}
+
+main .top_newCar {
+    padding-top: 10px;
+}
+
+main .salon_moi_nhat {
+    /* display: none; */
+}
+
+main .salon_cu_nhat {
+    background-color: #f3f3f3;
+    display: none;
+}
+
+.dropdown #s_salon_cu {
+    display: block;
+}
+
+.dropdown #s_salon_moi {
+    display: none;
+}
+

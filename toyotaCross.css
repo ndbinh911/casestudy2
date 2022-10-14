@@ -1,0 +1,22 @@
+.two_box button {
+    background-color: #1e73d8;
+    color: #fff;
+}
+
+.two_box button:hover {
+    opacity: 0.9;
+    color: #fff;
+}
+
+/* related_products */
+.related_products {
+    margin-top: 12px;
+    background-color: #f3f3f3;
+}
+
+/* footer */
+footer footer {
+    background-color: #0b2239;
+    color: #fff!important;
+    padding-top: 2px;
+}
